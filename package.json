@@ -19,7 +19,6 @@
   "typings": "./lib/index.d.ts",
   "scripts": {
     "start": "PACKAGE_VERSION=$(npm pkg get version) nodemon",
-    "build": "tsc",
     "lint": "tslint -c tslint.json src/**/*.ts",
     "prepublish": "npm run build"
   },
