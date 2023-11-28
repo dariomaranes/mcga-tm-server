@@ -11,8 +11,5 @@
       "src": "/(.*)",
       "dest": "dist/index.js"
     }
-  ],
-  "github": {
-    "enabled": false
-  }
+  ]
 }
